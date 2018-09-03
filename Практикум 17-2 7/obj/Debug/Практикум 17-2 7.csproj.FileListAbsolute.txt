@@ -1,0 +1,30 @@
+/Users/ASMANandNASTYA/Projects/Практикум 17-2 7/Практикум 17-2 7/obj/Debug/Практикум 17-2 7.csprojResolveAssemblyReference.cache
+/Users/ASMANandNASTYA/Projects/Практикум 17-2 7/Практикум 17-2 7/obj/Debug/Практикум 17-2 7.csproj.CoreCompileInputs.cache
+/Users/ASMANandNASTYA/Projects/Практикум 17-2 7/Практикум 17-2 7/bin/Debug/Практикум_17_2_7.exe
+/Users/ASMANandNASTYA/Projects/Практикум 17-2 7/Практикум 17-2 7/bin/Debug/Практикум_17_2_7.pdb
+/Users/ASMANandNASTYA/Projects/Практикум 17-2 7/Практикум 17-2 7/obj/Debug/Практикум_17_2_7.exe
+/Users/ASMANandNASTYA/Projects/Практикум 17-2 7/Практикум 17-2 7/obj/Debug/Практикум_17_2_7.pdb
+C:\Users\Асман\Desktop\Практикум 17-2 7\Практикум 17-2 7\bin\Debug\Практикум_17_2_7.exe.config
+C:\Users\Асман\Desktop\Практикум 17-2 7\Практикум 17-2 7\bin\Debug\Практикум_17_2_7.exe
+C:\Users\Асман\Desktop\Практикум 17-2 7\Практикум 17-2 7\bin\Debug\Практикум_17_2_7.pdb
+C:\Users\Асман\Desktop\Практикум 17-2 7\Практикум 17-2 7\obj\Debug\Практикум 17-2 7.csprojResolveAssemblyReference.cache
+C:\Users\Асман\Desktop\Практикум 17-2 7\Практикум 17-2 7\obj\Debug\Практикум_17_2_7.MainForm.resources
+C:\Users\Асман\Desktop\Практикум 17-2 7\Практикум 17-2 7\obj\Debug\Практикум 17-2 7.csproj.GenerateResource.cache
+C:\Users\Асман\Desktop\Практикум 17-2 7\Практикум 17-2 7\obj\Debug\Практикум 17-2 7.csproj.CoreCompileInputs.cache
+C:\Users\Асман\Desktop\Практикум 17-2 7\Практикум 17-2 7\obj\Debug\Практикум_17_2_7.exe
+C:\Users\Асман\Desktop\Практикум 17-2 7\Практикум 17-2 7\obj\Debug\Практикум_17_2_7.pdb
+C:\Users\Асман\Desktop\Практикум 17-2 7\Практикум 17-2 7\obj\Debug\Практикум_17_2_7.AddSongForm.resources
+C:\Users\Асман\Desktop\Практикум 17-2 7\Практикум 17-2 7\obj\Debug\Практикум_17_2_7.SearchForm.resources
+C:\Users\Асман\Desktop\Практикум 17-2 7\Практикум 17-2 7\obj\Debug\Практикум_17_2_7.AddDiskForm.resources
+C:\Users\umbetovaa\Downloads\Практикум 17-2 7\Практикум 17-2 7\bin\Debug\Практикум_17_2_7.exe.config
+C:\Users\umbetovaa\Downloads\Практикум 17-2 7\Практикум 17-2 7\bin\Debug\Практикум_17_2_7.exe
+C:\Users\umbetovaa\Downloads\Практикум 17-2 7\Практикум 17-2 7\bin\Debug\Практикум_17_2_7.pdb
+C:\Users\umbetovaa\Downloads\Практикум 17-2 7\Практикум 17-2 7\obj\Debug\Практикум 17-2 7.csprojResolveAssemblyReference.cache
+C:\Users\umbetovaa\Downloads\Практикум 17-2 7\Практикум 17-2 7\obj\Debug\Практикум_17_2_7.AddDiskForm.resources
+C:\Users\umbetovaa\Downloads\Практикум 17-2 7\Практикум 17-2 7\obj\Debug\Практикум_17_2_7.AddSongForm.resources
+C:\Users\umbetovaa\Downloads\Практикум 17-2 7\Практикум 17-2 7\obj\Debug\Практикум_17_2_7.MainForm.resources
+C:\Users\umbetovaa\Downloads\Практикум 17-2 7\Практикум 17-2 7\obj\Debug\Практикум_17_2_7.SearchForm.resources
+C:\Users\umbetovaa\Downloads\Практикум 17-2 7\Практикум 17-2 7\obj\Debug\Практикум 17-2 7.csproj.GenerateResource.Cache
+C:\Users\umbetovaa\Downloads\Практикум 17-2 7\Практикум 17-2 7\obj\Debug\Практикум 17-2 7.csproj.CoreCompileInputs.cache
+C:\Users\umbetovaa\Downloads\Практикум 17-2 7\Практикум 17-2 7\obj\Debug\Практикум_17_2_7.exe
+C:\Users\umbetovaa\Downloads\Практикум 17-2 7\Практикум 17-2 7\obj\Debug\Практикум_17_2_7.pdb
