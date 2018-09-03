@@ -5,7 +5,7 @@ using System.IO;
 using System.Runtime.InteropServices.ComTypes;
 using System.Runtime.Remoting.Services;
 using System.Windows.Forms;
-using System.Runtime.Serialization.Formatters.Binary;
+using System.Xml.Serialization;
 
 namespace Практикум_17_2_7
 {
@@ -15,7 +15,7 @@ namespace Практикум_17_2_7
 
         public static void Main(string[] args)
         {
-            /* var input = new StreamReader("input.txt");
+             var input = new StreamReader("input.txt");
              while (input.Peek() != -1)
              {
                  string temp = input.ReadLine();
@@ -38,12 +38,12 @@ namespace Практикум_17_2_7
 
                      MainBase.AddDisk(DiskInput);
                  }
-             }*/
-            using (var fs = new FileStream("C:/Users/umbetovaa/Downloads/Практикум 17-2 7/disks.dat", FileMode.OpenOrCreate))
+             }
+           /* using (var fs = new FileStream("C:/Users/umbetovaa/Downloads/Практикум 17-2 7/disks.xml", FileMode.OpenOrCreate))
             {
-                BinaryFormatter fromatter = new BinaryFormatter();
-                MainBase = (DiskBase)fromatter.Deserialize(fs);
-            }
+                XmlSerializer formatter = new XmlSerializer(typeof(DiskBase));
+                MainBase = (DiskBase)formatter.Deserialize(fs);
+            }*/
                 
 
             Presentation();

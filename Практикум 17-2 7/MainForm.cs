@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.IO;
+using System.Xml.Serialization;
 
 namespace Практикум_17_2_7
 {
@@ -136,9 +137,9 @@ namespace Практикум_17_2_7
 
         private void SaveBtn_Click(object sender, EventArgs e)
         {
-            using (var fs = new FileStream("C:/Users/umbetovaa/Downloads/Практикум 17-2 7/disks.dat", FileMode.OpenOrCreate))
+            using (var fs = new FileStream("C:/Users/umbetovaa/Downloads/Практикум 17-2 7/disks.xml", FileMode.OpenOrCreate))
             {
-                BinaryFormatter formatter = new BinaryFormatter();
+                XmlSerializer formatter = new XmlSerializer(typeof(DiskBase));
                 formatter.Serialize(fs, Program.MainBase.GetBase());
             }
                 
