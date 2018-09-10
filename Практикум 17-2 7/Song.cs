@@ -15,6 +15,11 @@ namespace Практикум_17_2_7
             SongAuthor = author;
         }
 
+        public Song() {
+            SongName = "NoName";
+            SongAuthor = "NoName";
+        }
+
         public string GetSongAutor()
         {
             return this.SongAuthor;

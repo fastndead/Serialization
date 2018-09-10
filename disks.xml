@@ -1,2 +1,77 @@
 <?xml version="1.0"?>
-<DiskBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+<DiskBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <index>5</index>
+  <Disks>
+    <Disk>
+      <Songs>
+        <Song />
+        <Song />
+        <Song />
+        <Song />
+        <Song />
+        <Song />
+        <Song />
+        <Song />
+        <Song />
+        <Song />
+        <Song />
+        <Song />
+        <Song />
+        <Song />
+        <Song />
+      </Songs>
+      <DiskName>Led Zeppelin Physical Graffiti</DiskName>
+    </Disk>
+    <Disk>
+      <Songs>
+        <Song />
+        <Song />
+        <Song />
+        <Song />
+        <Song />
+        <Song />
+        <Song />
+        <Song />
+        <Song />
+        <Song />
+        <Song />
+      </Songs>
+      <DiskName>Oasis Definitely Maybe</DiskName>
+    </Disk>
+    <Disk>
+      <Songs>
+        <Song />
+        <Song />
+        <Song />
+        <Song />
+        <Song />
+        <Song />
+        <Song />
+        <Song />
+        <Song />
+        <Song />
+        <Song />
+      </Songs>
+      <DiskName>Vaccines English Graffiti</DiskName>
+    </Disk>
+    <Disk>
+      <Songs>
+        <Song />
+        <Song />
+        <Song />
+        <Song />
+        <Song />
+        <Song />
+        <Song />
+        <Song />
+        <Song />
+        <Song />
+        <Song />
+        <Song />
+        <Song />
+        <Song />
+      </Songs>
+      <DiskName>Black Panther OST</DiskName>
+    </Disk>
+  </Disks>
+</DiskBase>

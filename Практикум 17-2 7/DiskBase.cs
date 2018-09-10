@@ -8,58 +8,32 @@ namespace Практикум_17_2_7
     [Serializable]
     public class DiskBase
     {
-        private uint index;
-        private Hashtable Disks;
+        public uint index;
+        public List<Disk> Disks;
 
         public DiskBase()
         {
-            Disks = new Hashtable();
+            Disks = new List<Disk>();
             index = 1;
-        }
-
-        public void ShowAllDisksEntirely()
-        {
-            ICollection keys = Disks.Keys;
-            foreach (uint index in keys)
-            {
-                Disk item = (Disk)Disks[index];
-                Console.WriteLine("№{0}",index); 
-                item.Show();
-            }
         }
 
         public List<Song> GetAllDisksEntirely()
         {
             var res = new List<Song>();
-            ICollection keys = Disks.Keys;
-            foreach (uint index in keys)
-            {
-                Disk item = (Disk)Disks[index];
+            foreach (Disk item in Disks)
+            { 
                 res.AddRange(item.GetSongs());
             }
             return res;
         }
 
 
-        public void ShowAllDisksTitles()
-        {
-            ICollection keys = Disks.Keys;
-            foreach (uint index in keys)
-            {
-                Disk item = (Disk)Disks[index];
-                Console.WriteLine("#{0}",index); 
-                item.ShowDiskName();
-            }
-        }
-
         public List<string> GetDisksTitles()
         {
             var res = new List<string>();
-            ICollection keys = Disks.Keys;
-            foreach (uint index in keys)
+            foreach (Disk item in Disks)
             {
-                Disk item = (Disk)Disks[index];
-                string title = "#"+ index + "\t"+ item.GetDiskName();
+                string title = "#"+ item.GetHashCode() + "\t"+ item.GetDiskName();
                 res.Add(title);
             }
             return res;
@@ -67,52 +41,50 @@ namespace Практикум_17_2_7
 
         public void DeleteDisk(uint index)
         {
-            Disks.Remove(index);
+            Disks.RemoveAt((int)index);
         }
         
         public void AddDisk(Disk disk)
         {
-            Disks.Add(index,disk);
+            Disks.Add(disk);
             index++;
         }
 
         public void RemoveSong(uint indexOfDisk, uint index)
         {
-            Disk disk = (Disk) Disks[indexOfDisk];
+            Disk disk = Disks[(int)indexOfDisk];
             disk.DeleteSong(index);
         }
 
         public void ShowDisk(uint index)
         {
-            Disk disk = (Disk) Disks[index];
+            Disk disk = (Disk) Disks[(int)index];
             disk.Show();
         }
 
         public List<Song> GetDisk(uint index)
         {
-            Disk disk = (Disk)Disks[index];
+            Disk disk = (Disk)Disks[(int)index];
             return disk.GetSongs();
         }
         
         public void AddSongToDisk(uint index, Song song)
         {
-            Disk disk = (Disk)Disks[index];
+            Disk disk = (Disk)Disks[(int)index];
             disk.AddSong(song);
         }
 
         public void AddSongToDisk(uint index, string name, string author)
         {
-            Disk disk = (Disk) Disks[index];
+            Disk disk = (Disk) Disks[(int)index];
             disk.AddSong(new Song(name, author));
         }
 
         public List<Song> SearchForSuthor(string author)
         {
             var result = new List<Song>();
-            ICollection keys = Disks.Keys;
-            foreach (uint index in keys)
+            foreach (Disk item in Disks)
             {
-                Disk item = (Disk)Disks[index];
                 result.AddRange(item.SearchSongsByAuthor(author));
             }
             return result;
@@ -120,20 +92,16 @@ namespace Практикум_17_2_7
 
         public void SortByAutor()
         {
-            ICollection keys = Disks.Keys;
-            foreach (uint index in keys)
-            {
-                Disk item = (Disk)Disks[index];
+            foreach (Disk item in Disks)
+            { 
                 item.SortSongsByAuthor();
             }
         }
         
         public void SortByNames()
         {
-            ICollection keys = Disks.Keys;
-            foreach (uint index in keys)
+            foreach (Disk item in Disks)
             {
-                Disk item = (Disk)Disks[index];
                 item.SortSongsByNames();
             }
         }

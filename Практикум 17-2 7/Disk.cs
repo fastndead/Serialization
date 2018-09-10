@@ -6,12 +6,16 @@ namespace Практикум_17_2_7
     [Serializable]
     public class Disk
     {
-        private string DiskName;
-        private List<Song> Songs= new List<Song>();
+        public string DiskName { get; set;}
+        public List<Song> Songs = new List<Song>();
         
         public Disk(string name)
         {
             DiskName = name;
+        }
+
+        public Disk() {
+            DiskName = "No Name";
         }
 
         public Disk(string name, params Song[] songs):this(name)
