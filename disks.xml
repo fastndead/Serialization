@@ -4,72 +4,225 @@
   <Disks>
     <Disk>
       <Songs>
-        <Song />
-        <Song />
-        <Song />
-        <Song />
-        <Song />
-        <Song />
-        <Song />
-        <Song />
-        <Song />
-        <Song />
-        <Song />
-        <Song />
-        <Song />
-        <Song />
-        <Song />
+        <Song>
+          <SongName>Custard Pie</SongName>
+          <SongAuthor>Led Zeppelin</SongAuthor>
+        </Song>
+        <Song>
+          <SongName>The Rover</SongName>
+          <SongAuthor>Led Zeppelin</SongAuthor>
+        </Song>
+        <Song>
+          <SongName>In My Time Of Dying</SongName>
+          <SongAuthor>Led Zeppelin</SongAuthor>
+        </Song>
+        <Song>
+          <SongName>Houses Of The Holy</SongName>
+          <SongAuthor>Led Zeppelin</SongAuthor>
+        </Song>
+        <Song>
+          <SongName>Trampled Under Foot</SongName>
+          <SongAuthor>Led Zeppelin</SongAuthor>
+        </Song>
+        <Song>
+          <SongName>Kashmir</SongName>
+          <SongAuthor>Led Zeppelin</SongAuthor>
+        </Song>
+        <Song>
+          <SongName>In The Light</SongName>
+          <SongAuthor>Led Zeppelin</SongAuthor>
+        </Song>
+        <Song>
+          <SongName>Bron</SongName>
+          <SongAuthor>Led Zeppelin</SongAuthor>
+        </Song>
+        <Song>
+          <SongName>Down By The Seaside</SongName>
+          <SongAuthor>Led Zeppelin</SongAuthor>
+        </Song>
+        <Song>
+          <SongName>Ten Years Gone</SongName>
+          <SongAuthor>Led Zeppelin</SongAuthor>
+        </Song>
+        <Song>
+          <SongName>Night Flight</SongName>
+          <SongAuthor>Led Zeppelin</SongAuthor>
+        </Song>
+        <Song>
+          <SongName>The Wanton Song</SongName>
+          <SongAuthor>Led Zeppelin</SongAuthor>
+        </Song>
+        <Song>
+          <SongName>Boogie With Stu</SongName>
+          <SongAuthor>Led Zeppelin</SongAuthor>
+        </Song>
+        <Song>
+          <SongName>Black Country Woman</SongName>
+          <SongAuthor>Led Zeppelin</SongAuthor>
+        </Song>
+        <Song>
+          <SongName>Sick Again</SongName>
+          <SongAuthor>Led Zeppelin</SongAuthor>
+        </Song>
       </Songs>
       <DiskName>Led Zeppelin Physical Graffiti</DiskName>
     </Disk>
     <Disk>
       <Songs>
-        <Song />
-        <Song />
-        <Song />
-        <Song />
-        <Song />
-        <Song />
-        <Song />
-        <Song />
-        <Song />
-        <Song />
-        <Song />
+        <Song>
+          <SongName>Rock 'n' Roll Star</SongName>
+          <SongAuthor>Oasis</SongAuthor>
+        </Song>
+        <Song>
+          <SongName>Shakermaker</SongName>
+          <SongAuthor>Oasis</SongAuthor>
+        </Song>
+        <Song>
+          <SongName>Live Forever</SongName>
+          <SongAuthor>Oasis</SongAuthor>
+        </Song>
+        <Song>
+          <SongName>Up in the Sky</SongName>
+          <SongAuthor>Oasis</SongAuthor>
+        </Song>
+        <Song>
+          <SongName>Columbia</SongName>
+          <SongAuthor>Oasis</SongAuthor>
+        </Song>
+        <Song>
+          <SongName>Supersonic</SongName>
+          <SongAuthor>Oasis</SongAuthor>
+        </Song>
+        <Song>
+          <SongName>Bring It on Down</SongName>
+          <SongAuthor>Oasis</SongAuthor>
+        </Song>
+        <Song>
+          <SongName>Cigarettes &amp; Alcohol</SongName>
+          <SongAuthor>Oasis</SongAuthor>
+        </Song>
+        <Song>
+          <SongName>Digsy's Dinner</SongName>
+          <SongAuthor>Oasis</SongAuthor>
+        </Song>
+        <Song>
+          <SongName>Slide Away</SongName>
+          <SongAuthor>Oasis</SongAuthor>
+        </Song>
+        <Song>
+          <SongName>Married with Children</SongName>
+          <SongAuthor>Oasis</SongAuthor>
+        </Song>
       </Songs>
       <DiskName>Oasis Definitely Maybe</DiskName>
     </Disk>
     <Disk>
       <Songs>
-        <Song />
-        <Song />
-        <Song />
-        <Song />
-        <Song />
-        <Song />
-        <Song />
-        <Song />
-        <Song />
-        <Song />
-        <Song />
+        <Song>
+          <SongName>Handsome</SongName>
+          <SongAuthor>Vaccines</SongAuthor>
+        </Song>
+        <Song>
+          <SongName>Dream Lover</SongName>
+          <SongAuthor>Vaccines</SongAuthor>
+        </Song>
+        <Song>
+          <SongName>Minimal Affection</SongName>
+          <SongAuthor>Vaccines</SongAuthor>
+        </Song>
+        <Song>
+          <SongName>20/20</SongName>
+          <SongAuthor>Vaccines</SongAuthor>
+        </Song>
+        <Song>
+          <SongName>(All Afternoon) In Love</SongName>
+          <SongAuthor>Vaccines</SongAuthor>
+        </Song>
+        <Song>
+          <SongName>Denial</SongName>
+          <SongAuthor>Vaccines</SongAuthor>
+        </Song>
+        <Song>
+          <SongName>Want You So Bad</SongName>
+          <SongAuthor>Vaccines</SongAuthor>
+        </Song>
+        <Song>
+          <SongName>Radio Bikini</SongName>
+          <SongAuthor>Vaccines</SongAuthor>
+        </Song>
+        <Song>
+          <SongName>Maybe I Could Hold You</SongName>
+          <SongAuthor>Vaccines</SongAuthor>
+        </Song>
+        <Song>
+          <SongName>Give Me a Sign</SongName>
+          <SongAuthor>Vaccines</SongAuthor>
+        </Song>
+        <Song>
+          <SongName>Undercover</SongName>
+          <SongAuthor>Vaccines</SongAuthor>
+        </Song>
       </Songs>
       <DiskName>Vaccines English Graffiti</DiskName>
     </Disk>
     <Disk>
       <Songs>
-        <Song />
-        <Song />
-        <Song />
-        <Song />
-        <Song />
-        <Song />
-        <Song />
-        <Song />
-        <Song />
-        <Song />
-        <Song />
-        <Song />
-        <Song />
-        <Song />
+        <Song>
+          <SongName>Black Panther</SongName>
+          <SongAuthor>Kendrick Lamar</SongAuthor>
+        </Song>
+        <Song>
+          <SongName>All the Stars</SongName>
+          <SongAuthor>SZA ft. Kendrick Lamar</SongAuthor>
+        </Song>
+        <Song>
+          <SongName>X</SongName>
+          <SongAuthor>Schoolboy Q, 2 Chainz, and Saudi</SongAuthor>
+        </Song>
+        <Song>
+          <SongName>The Ways</SongName>
+          <SongAuthor>Khalid and Swae Lee</SongAuthor>
+        </Song>
+        <Song>
+          <SongName>Oops</SongName>
+          <SongAuthor>Vince Staples and Yugen Blakrok</SongAuthor>
+        </Song>
+        <Song>
+          <SongName>I Am</SongName>
+          <SongAuthor>Jorja Smith</SongAuthor>
+        </Song>
+        <Song>
+          <SongName>Paramedic!</SongName>
+          <SongAuthor>SOB X RBE</SongAuthor>
+        </Song>
+        <Song>
+          <SongName>Soul, Anderson Paak and James Blake</SongName>
+          <SongAuthor>Ab</SongAuthor>
+        </Song>
+        <Song>
+          <SongName>King's Dead</SongName>
+          <SongAuthor>Jay Rock, Kendrick Lamar, Future and James Blake</SongAuthor>
+        </Song>
+        <Song>
+          <SongName>Redemption Interlude</SongName>
+          <SongAuthor>Kendrick Lamar</SongAuthor>
+        </Song>
+        <Song>
+          <SongName>Redemption</SongName>
+          <SongAuthor>Zacari</SongAuthor>
+        </Song>
+        <Song>
+          <SongName>Mozzy</SongName>
+          <SongAuthor>Seasons</SongAuthor>
+        </Song>
+        <Song>
+          <SongName>Big Shot</SongName>
+          <SongAuthor>Kendrick Lamar</SongAuthor>
+        </Song>
+        <Song>
+          <SongName>Pray for Me</SongName>
+          <SongAuthor>Weeknd ft. Kendrick Lamar</SongAuthor>
+        </Song>
       </Songs>
       <DiskName>Black Panther OST</DiskName>
     </Disk>

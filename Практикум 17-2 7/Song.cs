@@ -6,8 +6,8 @@ namespace Практикум_17_2_7
     [Serializable]
     public class Song
     {
-        private string SongName;
-        private string SongAuthor;
+        public string SongName;
+        public string SongAuthor;
 
         public Song(string name, string author)
         {
