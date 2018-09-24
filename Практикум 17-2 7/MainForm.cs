@@ -20,13 +20,10 @@ namespace Практикум_17_2_7
             InitializeComponent();
             DiskListRefresh();
         }
-        private uint diskIndex;
-
         private void DiskListRefresh()
         {
             DiskListBox.Items.Clear();
             var DisksTitlesList = Program.MainBase.GetDisksTitles();
-            DisksTitlesList.Sort();
 
             foreach (var item in DisksTitlesList)
             {
@@ -36,7 +33,7 @@ namespace Практикум_17_2_7
         public void SongListBoxRefresh()
         {
             SongListBox.Items.Clear();
-            var SongsList = Program.MainBase.GetDisk(diskIndex);
+            var SongsList = Program.MainBase.GetDisk((uint)DiskListBox.SelectedIndex);
             foreach (var item in SongsList)
             {
                 SongListBox.Items.Add(item.ToString());
@@ -54,8 +51,7 @@ namespace Практикум_17_2_7
 
         private void DiskListBox_SelectedIndexChanged(object sender, EventArgs e)
         {
-            diskIndex = uint.Parse(DiskListBox.SelectedItem.ToString()[1].ToString());
-            SongListBoxRefresh(Program.MainBase.GetDisk(diskIndex));
+            SongListBoxRefresh(Program.MainBase.GetDisk((uint)DiskListBox.SelectedIndex));
 
         }
 
@@ -69,7 +65,7 @@ namespace Практикум_17_2_7
 
         void AddSongForm_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Program.MainBase.AddSongToDisk(diskIndex, new Song((sender as AddSongForm).GetName(), (sender as AddSongForm).GetAuthor()));
+            Program.MainBase.AddSongToDisk((uint)DiskListBox.SelectedIndex, new Song((sender as AddSongForm).GetName(), (sender as AddSongForm).GetAuthor()));
             SongListBoxRefresh();
         }
 
@@ -96,7 +92,7 @@ namespace Практикум_17_2_7
 
         private void DeleteDiskBtn_Click(object sender, EventArgs e)
         {
-            Program.MainBase.DeleteDisk(diskIndex);
+            Program.MainBase.DeleteDisk((uint)DiskListBox.SelectedIndex);
             SongListBox.Items.Clear();
             DiskListRefresh();
         }
@@ -137,7 +133,7 @@ namespace Практикум_17_2_7
 
         private void SaveBtn_Click(object sender, EventArgs e)
         {
-            using (var fs = new FileStream("C:/Users/umbetovaa/Downloads/Практикум 17-2 7/disks.xml", FileMode.OpenOrCreate))
+            using (var fs = new FileStream("C:/Users/umbetovaa/Downloads/Практикум 17-2 7/disks.xml", FileMode.Create))
             {
                 XmlSerializer formatter = new XmlSerializer(typeof(DiskBase));
                 formatter.Serialize(fs, Program.MainBase.GetBase());

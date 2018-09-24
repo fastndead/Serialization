@@ -33,7 +33,7 @@ namespace Практикум_17_2_7
             var res = new List<string>();
             foreach (Disk item in Disks)
             {
-                string title = "#"+ item.GetHashCode() + "\t"+ item.GetDiskName();
+                string title =  item.GetDiskName();
                 res.Add(title);
             }
             return res;
